@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Odin Project Sign Up Form</title>
     <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
     <div class="container">
         <div class="image-container">
@@ -19,26 +21,52 @@
             </p>
         </div>
         <div class="form-container">
-            <h3 class="form-heading">This is not a real online serivce! You know you need something like this in your life to help you relaize your deepest dreams. Sign up now to get started.</h3>
-            <h3 class="form-heading">You know you want to.</h3>
-            <form class="form" action="">
-                <h1 class="form-top-heading">Let's do this</h1>
-                <label class="form-label" for="">First Name</label>
-                <input class="form-input" type="text">
-                <label class="form-label" for="">Last Name</label>
-                <input class="form-input" type="text">
-                <label class="form-label" for="">Email</label>
-                <input class="form-input" type="email">
-                <label class="form-label" for="">Phone Number</label>
-                <input class="form-input" type="tel">
-                <label class="form-label" for="">Password</label>
-                <input class="form-input" type="password">
-                <label class="form-label" for="">Confirm Password</label>
-                <input class="form-input" type="password">
-                <button class="form-button">Create Account</button>
+            <div class="form-heading">
+                <h3 class="form-heading-text">This is not a real online serivce! You know you need something like this
+                    in your life to help you relaize your deepest dreams. <br> Sign up <i>now</i> to get started.</h3>
+                <h3 class="form-heading-text">You <i>know</i> you want to.</h3>
+            </div>
+            <form action="">
+                <div class="form">
+                    <h4 class="form-top-heading">Let's do this!</h4>
+                    <div class="form-row">
+                        <div class="form-cols">
+                            <label class="form-label" for="">First Name</label>
+                            <input class="form-input" type="text">
+                        </div>
+                        <div class="form-cols">
+                            <label class="form-label" for="">Last Name</label>
+                            <input class="form-input" type="text">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-cols">
+                            <label class="form-label" for="">Email</label>
+                            <input class="form-input" type="email">
+                        </div>
+                        <div class="form-cols">
+                            <label class="form-label" for="">Phone Number</label>
+                            <input class="form-input" type="tel">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-cols">
+                            <label class="form-label" for="">Password</label>
+                            <input class="form-input" type="password">
+                        </div>
+                        <div class="form-cols">
+                            <label class="form-label" for="">Confirm Password</label>
+                            <input class="form-input" type="password">
+                        </div>
+                    </div>
+                </div>
+                <div class="button-group">
+                    <button type="submit" class="form-button">Create Account</button>
+                    <p class="form-login">Already have an Account? <a href="">Login</a></p>
+                </div>
             </form>
-            <p class="form-login">Already have an Account? <a href="">Login</a></p>
         </div>
     </div>
 </body>
+
 </html>

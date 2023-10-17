@@ -66,3 +66,93 @@ body {
 .image-text > a {
     color: white;
 }
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #edf2f4;
+    /* padding: 2rem; */
+}
+
+.form-heading {
+    font-family: sans-serif;
+    padding: 2rem;
+}
+
+.form-heading-text {
+    font-weight: 500;
+    width: 80%;
+}
+
+.form {
+    background-color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    box-shadow: 1px 4px 8px #888888;
+}
+
+.form-top-heading {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.form-row {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.form-cols {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+.form-label {
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 3px;
+    font-family: sans-serif;
+}
+
+.form-input {
+    padding: 2px;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: blue;
+}
+
+.button-group {
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.form-button {
+    background-color: #596D48;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-login  {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.form-login > a {
+    text-decoration: none;
+    color: #596D48;
+}
