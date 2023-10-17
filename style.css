@@ -125,8 +125,9 @@ body {
 }
 
 .form-input:focus {
-    outline: none;
-    border-color: blue;
+    border: none;
+    /* outline: none;
+    border-color: blue; */
 }
 
 .button-group {

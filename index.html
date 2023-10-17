@@ -26,37 +26,37 @@
                     in your life to help you relaize your deepest dreams. <br> Sign up <i>now</i> to get started.</h3>
                 <h3 class="form-heading-text">You <i>know</i> you want to.</h3>
             </div>
-            <form action="">
+            <form action="" method="get">
                 <div class="form">
                     <h4 class="form-top-heading">Let's do this!</h4>
                     <div class="form-row">
                         <div class="form-cols">
                             <label class="form-label" for="">First Name</label>
-                            <input class="form-input" type="text">
+                            <input name="firstName" class="form-input" type="text" required>
                         </div>
                         <div class="form-cols">
                             <label class="form-label" for="">Last Name</label>
-                            <input class="form-input" type="text">
+                            <input name="lastName" class="form-input" type="text" required>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-cols">
                             <label class="form-label" for="">Email</label>
-                            <input class="form-input" type="email">
+                            <input name="email" class="form-input" type="email" required>
                         </div>
                         <div class="form-cols">
                             <label class="form-label" for="">Phone Number</label>
-                            <input class="form-input" type="tel">
+                            <input name="phone" class="form-input" type="tel" required>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-cols">
                             <label class="form-label" for="">Password</label>
-                            <input class="form-input" type="password">
+                            <input name="password" class="form-input" type="password" minlength="8" required>
                         </div>
                         <div class="form-cols">
                             <label class="form-label" for="">Confirm Password</label>
-                            <input class="form-input" type="password">
+                            <input name="confirmPassword" class="form-input" type="password" minlength="8" required>
                         </div>
                     </div>
                 </div>
